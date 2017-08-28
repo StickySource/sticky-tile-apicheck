@@ -6,7 +6,7 @@
   <parent>
     <groupId>net.stickycode.parent</groupId>
     <artifactId>sticky-parent-tile</artifactId>
-    <version>1.1</version>
+    <version>2.2</version>
   </parent>
 
   <groupId>net.stickycode.tile</groupId>
@@ -14,20 +14,13 @@
   <version>2.2-SNAPSHOT</version>
 
   <packaging>tile</packaging>
-  <name>${project.artifactId}-1</name>
+  <name>${project.artifactId}-2</name>
   <description>Check that the api contract has not been broken</description>
-
-  <dependencies>
-    <dependency>
-      <groupId>com.github.siom79.japicmp</groupId>
-      <artifactId>japicmp-maven-plugin</artifactId>
-      <version>0.10.0</version>
-    </dependency>
-  </dependencies>
+  <url>https://github.com/StickySource/tile</url>
 
   <scm>
-    <connection>${git.url}</connection>
     <developerConnection>${git.url}</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
 </project>
